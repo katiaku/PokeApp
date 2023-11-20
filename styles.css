@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #2c2c2c;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f0ffd4, #ffd4f0, #ffaaaa);
+    background-repeat: no-repeat;
+}
+
+main {
+    padding: 3rem;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    color: #104481;
+}
+
+.logo {
+    width: 18rem;
+}
+
+.ball {
+    width: 2rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.ball:hover {
+    transform: translateY(-15px);
+}
